@@ -1,5 +1,6 @@
 package org.usfirst.ftc.exampleteam.yourcodehere;
 
+import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.DcMotorController;
@@ -12,7 +13,7 @@ import org.swerverobotics.library.SynchronousOpMode;
  controls the robot
  */
 @TeleOp(name="My First OpMode")
-public class RobotPhoneControl extends SynchronousOpMode
+public class RobotPhoneControl extends LinearOpMode
     {
     //Deciare motors
         DcMotor motorLeft = null;
